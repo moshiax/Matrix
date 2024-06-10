@@ -1,6 +1,7 @@
 {
-  "defaultHomeserver": 2,
+  "defaultHomeserver": 3,
   "homeserverList": [
+    "0wnz.at",
     "converser.eu",
     "envs.net",
     "matrix.org",
@@ -8,30 +9,5 @@
     "mozilla.org",
     "xmr.se"
   ],
-  "allowCustomHomeservers": true,
-
-  "featuredCommunities": {
-    "openAsDefault": false,
-    "spaces": [
-      "#cinny-space:matrix.org",
-      "#community:matrix.org",
-      "#space:envs.net",
-      "#science-space:matrix.org",
-      "#libregaming-games:tchncs.de",
-      "#mathematics-on:matrix.org"
-    ],
-    "rooms": [
-      "#cinny:matrix.org",
-      "#foundation-office:matrix.org",
-      "#thisweekinmatrix:matrix.org",
-      "#matrix-dev:matrix.org",
-      "#matrix:matrix.org"
-    ],
-    "servers": ["envs.net", "matrix.org", "monero.social", "mozilla.org"]
-  },
-
-  "hashRouter": {
-    "enabled": false,
-    "basename": "/"
-  }
+  "allowCustomHomeservers": true
 }
